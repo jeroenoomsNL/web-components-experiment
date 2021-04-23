@@ -55,13 +55,8 @@
         "error"
       ],
       "import/no-unresolved": "off",
-      "import/extensions": [
-        "error",
-        "always",
-        {
-          "ignorePackages": true
-        }
-      ]
+      "import/extensions": "off",
+      "lit-a11y/no-autofocus": "off"
     }
   },
   "prettier": {

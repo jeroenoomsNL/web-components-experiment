@@ -1,5 +1,6 @@
 import { LitElement, html, css, property } from 'lit-element';
 import { openWcLogo } from '../static/open-wc-logo.js';
+import './brewery/index';
 
 export class WcEend extends LitElement {
   @property({ type: String }) title = 'My app';
@@ -63,6 +64,7 @@ export class WcEend extends LitElement {
           Code examples
         </a>
       </main>
+      <breweries-element></breweries-element>
 
       <p class="app-footer">
         🚽 Made with love by
