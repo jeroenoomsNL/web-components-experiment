@@ -1,5 +1,5 @@
 import { LitElement, html, css, property } from 'lit-element';
-import { openWcLogo } from './open-wc-logo.js';
+import { openWcLogo } from '../static/open-wc-logo.js';
 
 export class WcEend extends LitElement {
   @property({ type: String }) title = 'My app';
@@ -76,3 +76,5 @@ export class WcEend extends LitElement {
     `;
   }
 }
+
+customElements.define('wc-eend', WcEend);
